@@ -1,0 +1,23 @@
+{
+  "name": "pattern-cube",
+  "version": "0.0.0",
+  "description": "Transform data by given patterns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Xi/pattern-cube.git"
+  },
+  "keywords": [
+    "pattern",
+    "transform"
+  ],
+  "author": "Kevin Xi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevin-Xi/pattern-cube/issues"
+  },
+  "homepage": "https://github.com/Kevin-Xi/pattern-cube#readme"
+}
