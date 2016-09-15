@@ -1,13 +1,19 @@
-function Cube(data) {
-    this.data = data;
-}
+'use strict';
 
-Cube.prototype.keys;
+class Cube {
+    constructor(data) {
+        this.data = data;
+    }
 
-Cube.prototype.values;
+    get() {
+        return new Cube(this.data).data;
+    }
 
-Cube.prototype.mapping;
+    accumulate(key) {
+        return new Cube(this.data.reduce((acc, cur) => {
+            return acc.concat(cur[key]);
+        }, []));
+    }
+};
 
-Cube.prototype.accumulate;
-
-Cube.prototype.fold;
+module.exports = Cube;
